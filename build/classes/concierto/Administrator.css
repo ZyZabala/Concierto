@@ -1,0 +1,47 @@
+.label {
+   -fx-font-size: 40px;
+}
+#SmallButton {
+   -fx-text-fill: rgba(225,225,225,0.9);
+ -fx-text-effect: bloom;
+   -fx-text-fill: rgba(70,70,70,0.9);
+   -fx-font-size: 25px;
+}
+#SmallButton:hover {
+   -fx-font-size: 30px;
+   -fx-text-fill: rgba(75,200,225,0.9);
+-fx-border-color: rgba(75,200,225,0.9);
+-fx-border-width: 4px;
+}
+#SmallTexter {
+   -fx-font-size: 30px;
+}
+#SmallHeader {
+   -fx-font-size: 30px;
+   -fx-text-fill: rgba(75,200,225,0.9);
+}
+#Texter {
+        -fx-fill: rgba(75,200,225,0.9);
+}
+#Header {
+        -fx-fill: rgba(70,70,70,0.9);
+}
+#Title {
+        -fx-fill: rgba(225,225,225,0.9);
+}
+
+
+
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track{
+        -fx-border-color: rgba(225,225,225,0.8);
+}
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(225,225,225,0.8);
+}
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover{
+    -fx-background-color: rgba(75,200,225,0.9);
+        -fx-border-color: rgba(225,225,225,0.8);
+}
